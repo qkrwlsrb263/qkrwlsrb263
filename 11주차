@@ -1,0 +1,52 @@
+.//프로젝트 생성
+flutter create
+--platforms ios,android
+--org com.devman.cloneapp
+bamtol_maket_app
+
+//Assets 구성
+assets:
+
+assets/images/
+assets/svg/
+assets/svg/icons/
+//초기 라이브러리 설치
+get
+flutter_svg
+equatable
+google_fonts
+
+$ flutter pub add get flutter_ svg equatable google_fonts
+
+//GetX 라우트 설정
+class MyAPP extends StatelessWidget {
+const MyApp({super.key})
+
+@OverRide
+Widget build(Buildcontext context) {
+return GetMaterialApp(
+title '당근마켓 클론 코당'
+);
+}
+}
+//앱 테마 설정
+@OverRide
+Widget build(Buildcontexst context) {
+return GetMaterialApp(
+title: '당근마켓 클론 코딩'
+initialRoute : '/',
+theme: ThemeData(
+appBarTheme: const AppBarTheme(
+elevation : 0,
+color: Color(0xff212123),
+titleTextStyle: TextStyle(
+color: Colors.white,
+),
+),
+scaffoldBackgroundColor : const Color(0xff212123),
+),
+getpages: [
+getPage(name: '/', page: () => const App()),
+],
+);
+}
