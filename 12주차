@@ -1,0 +1,16 @@
+앱 ROOT 레이아웃 구성
+main.dart, /home => Root()
+BottomNavigationbar, currentIndex, BottomNavigationBarItem
+BottomNavController, BindingBuilder(), Obx()
+
+홈 화면 구성 (바이브 코딩으로 진행)
+AppBar leadingWidth:
+Get.width * 0.6;
+actions: [ ... ]
+
+바디 구성
+_ProductList(),
+ListView.separated()
+바이브 코딩으로 floatingActionButton 구현
+
+바이브 코딩을 할 때 한 번의 프롬프트로 끝내는것이 아니라 여러번의 세밀한 조절을 통해 결과물 다듬기 
