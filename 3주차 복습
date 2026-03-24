@@ -1,0 +1,3 @@
+클로드 코드 설치 — Node.js, Git 설치 후 npm install -g @anthropic-ai/claude-code
+손글씨 인식 프로그램 — MNIST 데이터셋으로 숫자 인식 앱 제작
+CLAUDE.md 활용 — /init 으로 프로젝트 설정 파일 생성, # 키로 규칙 추가
